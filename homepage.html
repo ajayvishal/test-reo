@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styling.css">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<script src="myscript.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="menu">
+<h2>Dashboard</h2>
+<ul>
+<li><a href="#"><i class="fas fa-home"></i>Dashboard</a></li>
+<li><a href="#"><i class="fas fa-user"></i>Invoice</a></li>
+<li><a href="#"><i class="fas fa-address-card"></i>Remit&EOB(HMO)<br><br>
+<div class="dropdown">
+<button class="dropbtn">EOB</button>
+<div class="dropdown-content">
+<ul>
+<li> <a href="#">FACET Load</a></li>
+<li> <a href="#">TSG Load</a></li>
+<li><a href="#">FACET Banking</a></li></ul>
+</div>
+</div>
+</a></li>
+<li><a href="#"><i class="fas fa-project-diagram"></i>Remit&EOB(FACETS)</a></li>
+<li><a href="#"><i class="fas fa-blog"></i>Administration</a></li>
+</ul> 
+</div>
+<div class="main_heading">
+<h1>Reconciliation Dashboard</h1>
+<div class = "container">
+<form>
+<div class="add_file">	
+<input type="file" id="fileload" accept="text">
+<input type="button" id="upload" value="Upload" onclick="Upload()">
+<input type="button" id="sort" value="sort" onclick="sortTable()"/>
+<input type="button" id="reset" value="Reset" onclick="history.go(0)">
+</div>
+<br>
+</form>
+<table id="myTable" class="tab">
+<tr>
+<th>CustomerId</th>
+<th>CustomerName</th>
+<th>Gender</th>
+<th>Loan Claimed</th>
+<th>Location</th>
+<th>Phone Number</th>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

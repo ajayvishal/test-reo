@@ -1,0 +1,12 @@
+123,ramu,male,Yes,chennai,9387776681
+723,reena,female,Yes,pune,9387786681
+193,sunil,male,Yes,chennai,9385436681
+723,rita,female,Yes,mysore,7867776681
+126,roja,female,no,vijaz,9875476681
+145,rehman,male,Yes,chennai,9963656681
+563,pooja,female,no,chennai,9643521781
+175,manju,male,Yes,mumbai,9866676681
+184,surya,male,Yes,kolkata,7455645771
+894,geetha,female,Yes,goa,8756643434
+823,uma,female,no,banglore,9868757583
+103,ravi,male,Yes,chennai,8796675666

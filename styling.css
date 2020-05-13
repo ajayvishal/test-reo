@@ -1,0 +1,162 @@
+/*styles for navigation bar*/
+.wrapper{
+width:100%;
+position: absolute;
+height:100%;
+}
+.wrapper .menu{
+width: 20%;
+height: 100%;
+background: #222;
+padding: 30px 0px;
+position: relative;
+top:0px;
+bottom:0px;
+float: left;
+}
+.wrapper .menu h2{
+color: #FFFFFF;
+text-transform: normal;
+text-align: center;
+margin-bottom: 10px;
+}
+h2{
+background-color:1E90FF;
+}
+.wrapper .menu ul li{
+padding: 20px;
+border-bottom: 1px solid #bdb8d7;
+border-bottom: 1px solid rgba(0,0,0,0.5);
+border-top: 1px solid rgba(255,255,255,0.05);
+}    
+.wrapper .menu ul li a{
+color: #FFFFFF;
+display: inline-block;
+}
+.wrapper .menu ul li a .fas{
+  width: 25px;
+}
+.wrapper .menu ul li:hover{
+  background-color: #A9A9A9;
+.dropbtn 
+{
+background-color: #222;
+color: white;
+padding: 16px;
+font-size: 10px;
+border: none;
+cursor: pointer;
+text-align:center;
+}
+}j
+/* styles for Dashboard */
+.wrapper .main_heading{
+width: 80%;
+height:100%;
+position: relative;
+float:right;
+background:#FFFFFF;
+}
+.wrapper .main_heading .container {
+padding:20px;
+margin:20px;
+box-sizing:border-box;
+position:relative;
+background-color: #FFFFFF;
+height:80%;
+overflow:auto;
+}
+.wrapper .main_heading h1{
+align:center;
+text-align:center;
+background-color:#1E90FF; 
+width: 100%; 
+padding:10px;
+color:#FFFFFF ;
+font-size:35px;
+}
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: #FFFFFF;
+}
+
+.wrapper .main_heading h1{
+align:center;
+text-align:center;
+background-color:#1E90FF; 
+width: 100%; 
+padding:10px;
+color:#FFFFFF ;
+font-size:35px;
+}
+.wrapper .main_heading .container {
+padding:20px;
+margin:20px;
+box-sizing:border-box;
+position:relative;
+background-color: #FFFFFF;
+height:80%;
+overflow:auto;
+}
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   background-color: #FFFFFF;
+}
+/* style for table in the body */
+.tab,.add-file{
+padding:10px;
+position: relative;
+}
+.tab{
+border:1px solid black;
+width:100%;
+text-align:center;
+column-gap:10px;
+background-color:#FFFFFF;
+overflow-y:scroll;
+}
+#myTable tr th{
+box-shadow: 0 0 3px #999;
+padding:6px;
+background-color:#1E90FF;
+}
+#myTable td {
+padding:6px 0;
+text-align:center;
+color: #000;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.dropdown {
+position: center;
+}
+.dropdown-content {
+display: none;
+position: left;
+background-color: black;
+}
+.dropdown-content a {
+color: black;
+display: block;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown:hover .dropbtn {
+background-color:#A9A9A9;
+}
+}
+
